@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction Page</title>
+  <link rel="stylesheet" href="/js/css/introduction.css"> <!-- Link to CSS -->
+  <script src="/js/javascript/introduction.js" defer></script> <!-- Link to JavaScript -->
+</head>
+<body>
+  <h1>Welcome to the Introduction Page</h1>
+  
+  <h2>Enter Your Details</h2>
+  <form>
+    <input type="text" id="nameInput" placeholder="Your Name" required>
+    <input type="number" id="ageInput" placeholder="Your Age" required>
+    <input type="text" id="cityInput" placeholder="Your City" required>
+    <input type="text" id="hobbyInput" placeholder="Your Hobby" required>
+    <button type="button" onclick="displayIntroduction()">Show Introduction</button>
+  </form>
+
+  <h2>Your Introduction</h2>
+  <div id="outputIntroduction" class="output-box"></div>
+</body>
+</html>

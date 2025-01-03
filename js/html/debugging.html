@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debugging Demo</title>
+  <link rel="stylesheet" href="/js/css/debugging.css"> <!-- Link to CSS -->
+  <script src="/js/javascript/debugging.js" defer></script> <!-- Link to JavaScript -->
+</head>
+<body>
+  <h1>Debugging in JavaScript</h1>
+
+  <h2>Enter a Code Snippet</h2>
+  <p>Type a JavaScript expression or code snippet. If it has an error, you'll see a debug message.</p>
+  <form>
+    <textarea id="codeInput" rows="5" placeholder="e.g., 5 + " required></textarea>
+    <button type="button" onclick="debugCode()">Run Code</button>
+  </form>
+
+  <h2>Output</h2>
+  <div id="outputDebugging" class="output-box"></div>
+</body>
+</html>

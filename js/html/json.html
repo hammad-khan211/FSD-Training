@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Working with JSON</title>
+  <link rel="stylesheet" href="/js/css/json.css"> <!-- Link to CSS -->
+  <script src="/js/javascript/json.js" defer></script> <!-- Link to JavaScript -->
+</head>
+<body>
+  <h1>JavaScript JSON Example</h1>
+
+  <!-- Display JSON Data -->
+  <h2>Existing Users</h2>
+  <button onclick="displayUsers()">Display Users</button>
+  <div id="outputJSON" class="output-box"></div>
+
+  <!-- Add New User -->
+  <h2>Add a New User</h2>
+  <input type="text" id="nameInput" placeholder="Name">
+  <input type="number" id="ageInput" placeholder="Age">
+  <input type="text" id="cityInput" placeholder="City">
+  <button onclick="addUser()">Add User</button>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Conversions</title>
+  <link rel="stylesheet" href="/js/css/conversion.css"> <!-- Link to CSS -->
+  <script src="/js/javascript/conversions.js" defer></script> <!-- Link to JavaScript -->
+</head>
+<body>
+  <h1>Unit Conversions</h1>
+
+  <!-- Temperature Conversion Section -->
+  <h2>Temperature Conversion</h2>
+  <input type="number" id="tempValue" placeholder="Enter value" />
+  <select id="tempUnit">
+    <option value="Celsius">Celsius</option>
+    <option value="Fahrenheit">Fahrenheit</option>
+  </select>
+  <button onclick="convertTemperature()">Convert</button>
+  <div id="tempResult" class="output-box"></div>
+
+  <!-- Length Conversion Section -->
+  <h2>Length Conversion</h2>
+  <input type="number" id="lengthValue" placeholder="Enter value" />
+  <select id="lengthUnit">
+    <option value="Meters">Meters</option>
+    <option value="Kilometers">Kilometers</option>
+  </select>
+  <button onclick="convertLength()">Convert</button>
+  <div id="lengthResult" class="output-box"></div>
+
+  <!-- Weight Conversion Section -->
+  <h2>Weight Conversion</h2>
+  <input type="number" id="weightValue" placeholder="Enter value" />
+  <select id="weightUnit">
+    <option value="Kilograms">Kilograms</option>
+    <option value="Pounds">Pounds</option>
+  </select>
+  <button onclick="convertWeight()">Convert</button>
+  <div id="weightResult" class="output-box"></div>
+</body>
+</html>

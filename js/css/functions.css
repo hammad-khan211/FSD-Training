@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Header Styles */
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #555;
+    margin-top: 30px;
+  }
+  
+  h3 {
+    color: #007bff;
+    margin-top: 10px;
+  }
+  
+  /* Input Styles */
+  input {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Section Styling */
+  h2, input, button, h3 {
+    text-align: center;
+  }
+  
+  #nameInput, #num1, #num2 {
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  #result, #greeting {
+    font-weight: bold;
+  }
+  
